@@ -1,0 +1,11 @@
+{
+	"id": "today-date-plugin",
+	"name": "Today Date Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Automatically replaces {{today()}} with the current date in your notes.",
+	"author": "Robbe",
+	"authorUrl": "",
+	"fundingUrl": "",
+	"isDesktopOnly": false
+}
