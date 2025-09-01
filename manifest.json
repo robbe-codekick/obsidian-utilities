@@ -1,9 +1,9 @@
 {
-	"id": "today-date-plugin",
-	"name": "Today Date Plugin",
-	"version": "1.0.0",
+	"id": "obsidian-utilities",
+	"name": "Obsidian Utilities",
+	"version": "1.1.0",
 	"minAppVersion": "0.15.0",
-	"description": "Automatically replaces {{today()}} with the current date in your notes.",
+	"description": "A collection of utilities for Obsidian including date insertion and issue tracking integration (Jira & Bitbucket).",
 	"author": "Robbe",
 	"authorUrl": "",
 	"fundingUrl": "",

@@ -6,3 +6,49 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+/* Jira Integration Styles */
+.jira-issue-key {
+    font-weight: bold;
+    color: var(--text-accent);
+    margin-bottom: 2px;
+}
+
+.jira-issue-summary {
+    color: var(--text-normal);
+    margin-bottom: 2px;
+    font-size: 0.9em;
+}
+
+.jira-issue-meta {
+    color: var(--text-muted);
+    font-size: 0.8em;
+}
+
+.jira-usage-instructions {
+    margin-top: 20px;
+    padding: 15px;
+    background: var(--background-secondary);
+    border-radius: 8px;
+}
+
+.jira-usage-instructions h4 {
+    margin-top: 0;
+    color: var(--text-accent);
+}
+
+.jira-usage-instructions p {
+    margin: 5px 0;
+    color: var(--text-muted);
+}
+
+/* Jira link styling */
+.internal-link[data-href^="JIRA:"] {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.internal-link[data-href^="JIRA:"]:hover {
+    color: var(--link-color-hover);
+    text-decoration: underline;
+}
